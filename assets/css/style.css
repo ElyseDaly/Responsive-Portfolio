@@ -410,3 +410,251 @@ footer p {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
+
+
+
+
+
+
+/* MEDIA QUERIES*/
+
+/*980px*/
+
+@media screen and (max-width: 980px) {
+	/*logo and nav bar*/
+	.logo {
+		margin-left: 70px;
+	}
+
+	nav {
+		margin-right: 70px;
+	}
+	
+	/*main content*/
+	.main-content {
+		width: 500px;
+		margin-left: 70px; 
+	}
+
+	/*sidebar content*/
+	.connect-sidebar {
+		margin-right: 70px;
+	}
+
+	/*about me content - image center and top*/
+	.about-me-image {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	/*portfolio content - images stacked*/
+	.hangman,
+	.rpg,
+	.trivia,
+	.widget,
+	.rock {
+		float: none;
+		margin-left: 60px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+
+/*768px*/
+@media screen and (max-width: 768px) {
+	/*main content section - all 3 pages*/
+	.main-content {
+		width: 100%;
+		float: none;
+		margin-right: 20px;
+	}
+	/*about me*/
+	.about-me-image {
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+	
+	/*sidebar all 3 pages*/
+	.connect-sidebar {
+		clear: both;
+		float: none;
+		margin-left: 70px;
+		margin-right: 70px;
+		max-width: 650px;
+	}
+
+	.connect-content h2 {
+		text-align: left;
+	}
+	
+	/*portfolio*/
+	.photo {
+		overflow: auto;
+		padding: 5px;
+	}
+
+	.hangman {
+		float: left;
+		width: 210px;
+		height: 150px;
+		padding: 0px;
+		margin: 10px 0px 10px 20px;
+	}
+
+	.rpg {
+		float: right;
+		width: 210px;
+		height: 150px; 
+		padding: 0px;
+		margin: 10px 20px 10px 0px;
+	}
+
+	.trivia {
+		clear: both;
+		float: left;
+		width: 210px;
+		height: 150px;
+		padding: 0px;
+		margin: 10px 0px 10px 20px; 
+	}
+
+	.widget {
+		float: right;
+		width: 210px;
+		height: 150px; 
+		padding: 0px;
+		margin: 10px 20px 10px 0px;
+	}
+
+	.rock {
+		clear: both;
+		float: left;
+		width: 210px;
+		height: 150px;
+		padding: 0px;
+		margin: 10px 0px 10px 20px; 
+	}
+
+	.hangman p,
+	.rpg p,
+	.trivia p,
+	.widget p,
+	.rock p {
+		margin-top: 90px;
+		margin-left: 0px;
+		padding: 0px;
+		font-size: 14px;
+		width: 100%;
+	}
+}
+
+
+
+/*640px*/
+@media screen and (max-width: 640px) {
+	body {
+		margin: 0px;
+	}
+
+	.container {
+		margin: 0px;
+		width: 100%;
+	}
+
+	header {
+		position: static;
+		z-index: none;
+		float: none;
+		width: 100%;
+		margin: none;
+	}
+
+	footer {
+		width: 100%;
+	}
+
+	.logo {
+		float: left;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+
+	nav {
+		float: none;
+		clear: both;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	nav ul {
+		margin-left: 40px;
+	}
+
+	nav li {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+
+	.main-content {
+		float: none;
+		width: 580px;
+		margin-left: 30px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+
+	.about-me-image {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.hangman,
+	.rpg,
+	.trivia,
+	.widget,
+	.rock {
+		float: none;
+		margin-left: 80px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		width: 300px;
+		height: 250px;
+	}
+
+	.hangman p,
+	.rpg p,
+	.trivia p,
+	.widget p,
+	.rock p {
+		margin-top: 150px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.connect-sidebar {
+		float: none;
+		width: 580px;
+		margin-left: 30px;
+		margin-right: 0px;
+		margin-top: 40px;
+		margin-bottom: 5px;
+	}
+}
